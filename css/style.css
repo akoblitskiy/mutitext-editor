@@ -1,0 +1,29 @@
+body {
+    background-color: #e4ebeb;
+}
+.container {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    min-height: 100vh;
+}
+.greets {
+    font-size: 48px;
+    color: #282828;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.editor-panel {
+    min-height: 80px;
+    background-color: #dbd9cf;
+    margin-bottom: 30px;
+}
+#logs_box {
+    margin: 20px 10px;
+    border: 1px solid #d3d9df;
+    color: #42484c;
+    font-size: 0.8em;
+    height: 200px;
+    overflow-y: scroll;
+}
